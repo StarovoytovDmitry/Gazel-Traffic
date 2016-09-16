@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Lqt-5P-aoF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5rv-3R-cDG">
+            <objects>
+                <viewController id="FNT-0F-nHl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DgB-rn-80V"/>
+                        <viewControllerLayoutGuide type="bottom" id="RXO-ln-cIV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="29Y-li-9fd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Грузоперевозки" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVC-uZ-KfM">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ag7-d9-6K3"/>
+                                    <constraint firstAttribute="width" constant="131" id="xde-fl-ANF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0074376578279999996" green="0.0074376578279999996" blue="0.0074376578279999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Грузоподъемность" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bY-Qt-YLz">
+                                <frame key="frameInset" minX="221" minY="186" width="154" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Габариты" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFX-j1-Ib2">
+                                <frame key="frameInset" minX="16" minY="186" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Выгода" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCF-mD-pCh">
+                                <frame key="frameInset" minX="155" minY="188" width="65" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="eVC-uZ-KfM" firstAttribute="top" secondItem="DgB-rn-80V" secondAttribute="bottom" constant="8" id="mZa-cW-fln"/>
+                            <constraint firstItem="eVC-uZ-KfM" firstAttribute="centerX" secondItem="29Y-li-9fd" secondAttribute="centerX" id="t4D-uq-A9q"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="In Transit-50" selectedImage="In Transit-50" id="EDG-lt-ruh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hGa-GU-2b2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="948" y="324.28785607196403"/>
+        </scene>
+        <!--Калькулятор-->
+        <scene sceneID="TCc-Wx-w0N">
+            <objects>
+                <viewController id="vIe-uV-pYi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yf0-FI-U8W"/>
+                        <viewControllerLayoutGuide type="bottom" id="cMm-3Y-itg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mVu-bc-4fL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Калькулятор" image="Ruble-50" selectedImage="Ruble-50" id="uje-qz-qMD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qbK-0j-AVA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="948" y="993"/>
+        </scene>
+        <!--Заказать-->
+        <scene sceneID="b4G-WR-CGK">
+            <objects>
+                <viewController id="l8N-5e-e5P" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qp1-G6-1ZB"/>
+                        <viewControllerLayoutGuide type="bottom" id="KjD-rw-jyI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xWr-qn-CKO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Заказать" image="Purchase Order-50" selectedImage="Purchase Order-50" id="MvV-FT-66H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HDO-mw-vwK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949" y="-331"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="FAB-TK-fkA">
+            <objects>
+                <tabBarController id="Lqt-5P-aoF" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" id="w0K-p3-855">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" red="1" green="0.55893411640512414" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="l8N-5e-e5P" kind="relationship" relationship="viewControllers" id="0gf-9O-vBT"/>
+                        <segue destination="FNT-0F-nHl" kind="relationship" relationship="viewControllers" id="7D8-uE-EUp"/>
+                        <segue destination="vIe-uV-pYi" kind="relationship" relationship="viewControllers" id="4t8-en-sWA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V4b-qL-L1P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-362" y="324"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="In Transit-50" width="30" height="30"/>
+        <image name="Purchase Order-50" width="30" height="30"/>
+        <image name="Ruble-50" width="30" height="30"/>
+    </resources>
+</document>
