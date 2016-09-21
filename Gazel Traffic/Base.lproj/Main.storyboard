@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Lqt-5P-aoF">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Lqt-5P-aoF">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="5rv-3R-cDG">
             <objects>
-                <viewController id="FNT-0F-nHl" sceneMemberID="viewController">
+                <viewController id="FNT-0F-nHl" customClass="MenuViewController" customModule="Gazel_Traffic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DgB-rn-80V"/>
                         <viewControllerLayoutGuide type="bottom" id="RXO-ln-cIV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="29Y-li-9fd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="840"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Грузоперевозки" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVC-uZ-KfM">
@@ -27,38 +27,54 @@
                                 <color key="textColor" red="0.0074376578279999996" green="0.0074376578279999996" blue="0.0074376578279999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Грузоподъемность" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bY-Qt-YLz">
-                                <frame key="frameInset" minX="221" minY="186" width="154" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Габариты" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFX-j1-Ib2">
-                                <frame key="frameInset" minX="16" minY="186" width="79" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Выгода" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCF-mD-pCh">
-                                <frame key="frameInset" minX="155" minY="188" width="65" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yKf-Oe-Ah3">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZd-Et-O0b">
+                                        <color key="backgroundColor" red="1" green="0.78178656719999995" blue="0.39024076949999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="135" id="Gxj-SL-yDZ"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yEl-Dw-i1i">
+                                        <color key="backgroundColor" red="0.95294123890000004" green="0.0" blue="0.16078431900000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="r53-Uo-fhn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yEl-Dw-i1i" firstAttribute="leading" secondItem="yKf-Oe-Ah3" secondAttribute="leading" id="4Qi-3b-4lV"/>
+                                    <constraint firstAttribute="trailing" secondItem="PZd-Et-O0b" secondAttribute="trailing" id="Z1d-tN-w3y"/>
+                                    <constraint firstItem="PZd-Et-O0b" firstAttribute="leading" secondItem="yKf-Oe-Ah3" secondAttribute="leading" id="b0M-hQ-dX3"/>
+                                    <constraint firstItem="yEl-Dw-i1i" firstAttribute="top" secondItem="PZd-Et-O0b" secondAttribute="bottom" constant="163" id="h9C-zg-pdT"/>
+                                    <constraint firstItem="PZd-Et-O0b" firstAttribute="centerX" secondItem="yKf-Oe-Ah3" secondAttribute="centerX" id="hHX-PT-sNz"/>
+                                    <constraint firstItem="PZd-Et-O0b" firstAttribute="top" secondItem="yKf-Oe-Ah3" secondAttribute="top" constant="119" id="lTV-bI-Nw4"/>
+                                    <constraint firstAttribute="bottom" secondItem="yEl-Dw-i1i" secondAttribute="bottom" constant="295" id="lkV-Zw-IMy"/>
+                                    <constraint firstAttribute="trailing" secondItem="yEl-Dw-i1i" secondAttribute="trailing" id="rfh-cO-ubv"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
+                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                         <constraints>
+                            <constraint firstItem="yKf-Oe-Ah3" firstAttribute="leading" secondItem="29Y-li-9fd" secondAttribute="leading" id="96O-8N-DnS"/>
+                            <constraint firstAttribute="bottom" secondItem="yKf-Oe-Ah3" secondAttribute="bottom" id="Fk9-se-lUR"/>
+                            <constraint firstAttribute="trailing" secondItem="yKf-Oe-Ah3" secondAttribute="trailing" id="Mc3-aT-tsW"/>
+                            <constraint firstItem="yKf-Oe-Ah3" firstAttribute="top" secondItem="29Y-li-9fd" secondAttribute="top" id="dzG-0n-G4y"/>
                             <constraint firstItem="eVC-uZ-KfM" firstAttribute="top" secondItem="DgB-rn-80V" secondAttribute="bottom" constant="8" id="mZa-cW-fln"/>
                             <constraint firstItem="eVC-uZ-KfM" firstAttribute="centerX" secondItem="29Y-li-9fd" secondAttribute="centerX" id="t4D-uq-A9q"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="In Transit-50" selectedImage="In Transit-50" id="EDG-lt-ruh"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="840"/>
+                    <connections>
+                        <outlet property="scrollView" destination="yKf-Oe-Ah3" id="yTx-i5-bwV"/>
+                        <outlet property="viewContainer" destination="PZd-Et-O0b" id="9Ki-JD-a8W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hGa-GU-2b2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="948" y="324.28785607196403"/>
+            <point key="canvasLocation" x="1591.2" y="334.63268365817095"/>
         </scene>
         <!--Калькулятор-->
         <scene sceneID="TCc-Wx-w0N">
