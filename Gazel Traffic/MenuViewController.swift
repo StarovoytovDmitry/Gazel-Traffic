@@ -18,6 +18,7 @@ class MenuViewController: UIViewController {
         scrollView.contentSize = viewContainer.frame.size
         //scrollView.contentOffset = CGPoint(x: 0, y: -50)
         scrollView.bounces = false
+        scrollView.isPagingEnabled = true
         scrollView.addSubview(viewContainer)
         super.viewDidLoad()
     }

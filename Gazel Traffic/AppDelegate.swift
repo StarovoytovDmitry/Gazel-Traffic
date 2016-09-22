@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if let tabBarController = self.window!.rootViewController as? UITabBarController {
             tabBarController.selectedIndex = 1
         }
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
         // Override point for customization after application launch.
         return true
     }

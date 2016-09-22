@@ -15,61 +15,51 @@
                         <viewControllerLayoutGuide type="bottom" id="RXO-ln-cIV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="29Y-li-9fd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="840"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="920"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Грузоперевозки" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVC-uZ-KfM">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="ag7-d9-6K3"/>
-                                    <constraint firstAttribute="width" constant="131" id="xde-fl-ANF"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0074376578279999996" green="0.0074376578279999996" blue="0.0074376578279999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yKf-Oe-Ah3">
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZd-Et-O0b">
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="New Product-100" translatesAutoresizingMaskIntoConstraints="NO" id="AJ2-1a-qSE">
-                                                <frame key="frameInset" minX="157" minY="236" width="60" height="60"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Weight" translatesAutoresizingMaskIntoConstraints="NO" id="AJ2-1a-qSE">
+                                                <frame key="frameInset" minX="27" minY="590" width="60" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shipped-100" translatesAutoresizingMaskIntoConstraints="NO" id="CYa-yG-35B">
-                                                <frame key="frameInset" minX="157" minY="35" width="60" height="60"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Небольшая стоимость перевозки на газели позволяет выгодно организовать бизнес." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sw-cS-cNf">
+                                                <frame key="frameInset" minX="104" minY="662" width="254" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ruble" translatesAutoresizingMaskIntoConstraints="NO" id="Dc6-0H-u60">
+                                                <frame key="frameInset" minX="27" minY="669" width="60" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Максимальный перевозимый вес - 1.5 тонны, позволяет осуществлять грузоперевозки в черте города." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h78-xW-bIf">
-                                                <frame key="frameInset" minX="68" minY="304" width="250" height="67"/>
+                                                <frame key="frameInset" minX="104" minY="587" width="250" height="67"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Небольшая стоимость перевозки на газели позволяет выгодно организовать бизнес." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sw-cS-cNf">
-                                                <frame key="frameInset" minX="68" minY="510" width="250" height="74"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Размер кузова 4x1.9x1.5 идеально подходит для организации переездов, перевозки стройметериалов и прочих грузов." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaP-fO-tlO">
+                                                <frame key="frameInset" minX="104" minY="509" width="250" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Surface" translatesAutoresizingMaskIntoConstraints="NO" id="CYa-yG-35B">
+                                                <frame key="frameInset" minX="27" minY="515" width="60" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.87490234374999998" green="0.51819995986051182" blue="0.0" alpha="0.18075953994832211" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="672" id="Ck9-jQ-6dS"/>
+                                            <constraint firstAttribute="height" constant="752" id="U9Q-L2-lqg"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Размер кузова 4x1.9x1.5 идеально подходит для организации переездов, перевозки стройметериалов и прочих грузов." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaP-fO-tlO">
-                                        <rect key="frame" x="69" y="222" width="236" height="85"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ruble-100" translatesAutoresizingMaskIntoConstraints="NO" id="Dc6-0H-u60">
-                                        <rect key="frame" x="157" y="551" width="60" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="PZd-Et-O0b" secondAttribute="trailing" id="Z1d-tN-w3y"/>
@@ -79,8 +69,18 @@
                                     <constraint firstItem="PZd-Et-O0b" firstAttribute="top" secondItem="yKf-Oe-Ah3" secondAttribute="top" constant="119" id="x0D-ab-NAa"/>
                                 </constraints>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Грузоперевозки" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVC-uZ-KfM">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ag7-d9-6K3"/>
+                                    <constraint firstAttribute="width" constant="141" id="xde-fl-ANF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <color key="shadowColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="yKf-Oe-Ah3" firstAttribute="leading" secondItem="29Y-li-9fd" secondAttribute="leading" id="96O-8N-DnS"/>
                             <constraint firstAttribute="bottom" secondItem="yKf-Oe-Ah3" secondAttribute="bottom" constant="49" id="Fk9-se-lUR"/>
@@ -91,8 +91,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="In Transit-50" selectedImage="In Transit-50" id="EDG-lt-ruh"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="840"/>
+                    <size key="freeformSize" width="375" height="920"/>
                     <connections>
                         <outlet property="scrollView" destination="yKf-Oe-Ah3" id="yTx-i5-bwV"/>
                         <outlet property="viewContainer" destination="PZd-Et-O0b" id="9Ki-JD-a8W"/>
@@ -144,11 +146,11 @@
         <scene sceneID="FAB-TK-fkA">
             <objects>
                 <tabBarController id="Lqt-5P-aoF" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" id="w0K-p3-855">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="w0K-p3-855">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <color key="selectedImageTintColor" red="1" green="0.55893411640512414" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="l8N-5e-e5P" kind="relationship" relationship="viewControllers" id="0gf-9O-vBT"/>
@@ -163,10 +165,10 @@
     </scenes>
     <resources>
         <image name="In Transit-50" width="30" height="30"/>
-        <image name="New Product-100" width="100" height="100"/>
         <image name="Purchase Order-50" width="30" height="30"/>
-        <image name="Ruble-100" width="100" height="100"/>
+        <image name="Ruble" width="100" height="100"/>
         <image name="Ruble-50" width="30" height="30"/>
-        <image name="Shipped-100" width="100" height="100"/>
+        <image name="Surface" width="100" height="100"/>
+        <image name="Weight" width="100" height="100"/>
     </resources>
 </document>
