@@ -20,44 +20,58 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yKf-Oe-Ah3">
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZd-Et-O0b">
+                                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZd-Et-O0b">
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Weight" translatesAutoresizingMaskIntoConstraints="NO" id="AJ2-1a-qSE">
-                                                <frame key="frameInset" minX="27" minY="590" width="60" height="60"/>
+                                                <frame key="frameInset" minX="27" minY="601" width="60" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Небольшая стоимость перевозки на газели позволяет выгодно организовать бизнес." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sw-cS-cNf">
-                                                <frame key="frameInset" minX="104" minY="662" width="254" height="74"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Небольшая стоимость перевозки на газели позволяет выгодно организовать бизнес." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sw-cS-cNf">
+                                                <frame key="frameInset" minX="104" minY="669" width="250" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.59636157570000004" green="0.060588959929999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ruble" translatesAutoresizingMaskIntoConstraints="NO" id="Dc6-0H-u60">
                                                 <frame key="frameInset" minX="27" minY="669" width="60" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Максимальный перевозимый вес - 1.5 тонны, позволяет осуществлять грузоперевозки в черте города." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h78-xW-bIf">
-                                                <frame key="frameInset" minX="104" minY="587" width="250" height="67"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Максимальный перевозимый вес - 1.5 тонны, позволяет осуществлять грузоперевозки в черте города." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h78-xW-bIf">
+                                                <frame key="frameInset" minX="104" minY="601" width="250" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.59636157570000004" green="0.060588959929999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Размер кузова 4x1.9x1.5 идеально подходит для организации переездов, перевозки стройметериалов и прочих грузов." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaP-fO-tlO">
-                                                <frame key="frameInset" minX="104" minY="509" width="250" height="73"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Размер кузова 4x1.9x1.5 идеально подходит для организации переездов, перевозки стройметериалов и прочих грузов." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaP-fO-tlO">
+                                                <frame key="frameInset" minX="104" minY="520" width="250" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.59636157570000004" green="0.060588959929999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hk-99-hI5">
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="Tc2-Yc-ek2"/>
+                                                    <constraint firstAttribute="width" constant="30" id="tOs-46-xqj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                                <state key="normal" title="Подробнее" image="Expand Arrow"/>
+                                                <connections>
+                                                    <action selector="bottomButton:" destination="FNT-0F-nHl" eventType="touchUpInside" id="SAQ-zw-TZ2"/>
+                                                </connections>
+                                            </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Surface" translatesAutoresizingMaskIntoConstraints="NO" id="CYa-yG-35B">
-                                                <frame key="frameInset" minX="27" minY="515" width="60" height="60"/>
+                                                <frame key="frameInset" minX="27" minY="526" width="60" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstItem="0hk-99-hI5" firstAttribute="leading" secondItem="PZd-Et-O0b" secondAttribute="leading" constant="8" id="9ds-Zi-vmQ"/>
                                             <constraint firstAttribute="height" constant="752" id="U9Q-L2-lqg"/>
+                                            <constraint firstItem="0hk-99-hI5" firstAttribute="centerY" secondItem="PZd-Et-O0b" secondAttribute="centerY" id="ubH-wI-1Ke"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -69,24 +83,25 @@
                                     <constraint firstItem="PZd-Et-O0b" firstAttribute="top" secondItem="yKf-Oe-Ah3" secondAttribute="top" constant="119" id="x0D-ab-NAa"/>
                                 </constraints>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Грузоперевозки" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVC-uZ-KfM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Грузоперевозки" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVC-uZ-KfM">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="ag7-d9-6K3"/>
-                                    <constraint firstAttribute="width" constant="141" id="xde-fl-ANF"/>
+                                    <constraint firstAttribute="width" constant="181" id="xde-fl-ANF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
+                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                <color key="shadowColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="yKf-Oe-Ah3" firstAttribute="top" secondItem="29Y-li-9fd" secondAttribute="top" id="2ts-CH-1uD"/>
                             <constraint firstItem="yKf-Oe-Ah3" firstAttribute="leading" secondItem="29Y-li-9fd" secondAttribute="leading" id="96O-8N-DnS"/>
                             <constraint firstAttribute="bottom" secondItem="yKf-Oe-Ah3" secondAttribute="bottom" constant="49" id="Fk9-se-lUR"/>
                             <constraint firstAttribute="trailing" secondItem="yKf-Oe-Ah3" secondAttribute="trailing" id="Mc3-aT-tsW"/>
                             <constraint firstItem="yKf-Oe-Ah3" firstAttribute="top" secondItem="29Y-li-9fd" secondAttribute="top" id="dzG-0n-G4y"/>
-                            <constraint firstItem="eVC-uZ-KfM" firstAttribute="top" secondItem="DgB-rn-80V" secondAttribute="bottom" constant="8" id="mZa-cW-fln"/>
+                            <constraint firstItem="eVC-uZ-KfM" firstAttribute="top" secondItem="DgB-rn-80V" secondAttribute="bottom" constant="25" id="mZa-cW-fln"/>
                             <constraint firstItem="eVC-uZ-KfM" firstAttribute="centerX" secondItem="29Y-li-9fd" secondAttribute="centerX" id="t4D-uq-A9q"/>
                         </constraints>
                     </view>
@@ -164,6 +179,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Expand Arrow" width="100" height="100"/>
         <image name="In Transit-50" width="30" height="30"/>
         <image name="Purchase Order-50" width="30" height="30"/>
         <image name="Ruble" width="100" height="100"/>
